@@ -1,0 +1,44 @@
+{
+   "widgets": [
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 18,
+            "w": 9,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "v_REF",
+               "sourceNames": [
+                  "v_REF"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "v_REF",
+                  "_id": "data-serie-3",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "v_ADC",
+               "sourceNames": [
+                  "v_ADC"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "v_ADC",
+                  "_id": "data-serie-6",
+                  "stroke": "rgba(52,152,219,1)",
+                  "fill": "rgba(52,152,219,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      }
+   ],
+   "viewDuration": 15
+}
